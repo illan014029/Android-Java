@@ -8,4 +8,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="Resta"></style>
+
+    <style name="Suma"></style>
+
+    <style name="Boton"></style>
+
 </resources>
