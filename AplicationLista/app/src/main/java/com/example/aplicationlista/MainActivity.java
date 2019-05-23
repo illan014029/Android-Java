@@ -5,9 +5,25 @@ import android.os.Bundle;
 
 public class MainActivity extends AppCompatActivity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-    }
+   public class cursos{
+       private String nombre;
+
+       public String getNombre() {
+           return nombre;
+       }
+
+       public void setNombre(String nombre) {
+           this.nombre = nombre;
+       }
+
+       public double getPorcentaje() {
+           return porcentaje;
+       }
+
+       public void setPorcentaje(double porcentaje) {
+           this.porcentaje = porcentaje;
+       }
+
+       private double porcentaje;
+   }
 }

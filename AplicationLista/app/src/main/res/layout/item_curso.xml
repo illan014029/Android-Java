@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <de.hdodenhof.circleimageview.CircleImageView
+       android: layout_width="480dp"
+        android: layout_height = "480dp"
+        android: src="@drawable/default_classroom"
+        android: padding="10dp"
+        app: civ_border_with="2dp"
+        app: civ_border_color="@color/primar"
+        />
+
+</android.support.constraint.ConstraintLayout>
