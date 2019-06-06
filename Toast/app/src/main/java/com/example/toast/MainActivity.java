@@ -21,7 +21,7 @@ ImageButton boton;
             public void onClick(View v) {
                 LayoutInflater inflater = getLayoutInflater();
 
-                View layout = inflater.inflate(R.layout.activity_main, null);
+                View layout = inflater.inflate(R.layout.taost, null);
 
                 Toast toast = new Toast(getApplicationContext());
 
